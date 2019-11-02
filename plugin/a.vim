@@ -103,6 +103,9 @@ call <SID>AddAlternateExtensionMapping('mli',"ml")
 call <SID>AddAlternateExtensionMapping('aspx.cs', 'aspx')
 call <SID>AddAlternateExtensionMapping('aspx.vb', 'aspx')
 call <SID>AddAlternateExtensionMapping('aspx', 'aspx.cs,aspx.vb')
+" LaTeX
+call <SID>AddAlternateExtensionMapping('tex',"bib")
+call <SID>AddAlternateExtensionMapping('bib',"tex")
 
 " Setup default search path, unless the user has specified
 " a path in their [._]vimrc. 
